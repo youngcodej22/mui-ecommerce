@@ -14,8 +14,12 @@
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
     "@mui/system": "^5.15.5",
+    "@types/react-swipeable-views": "^0.13.5",
+    "@types/react-swipeable-views-utils": "^0.13.7",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-swipeable-views": "^0.14.0",
+    "react-swipeable-views-utils": "^0.14.0"
   },
   "devDependencies": {
     "@types/react": "latest",

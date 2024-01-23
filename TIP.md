@@ -3,6 +3,8 @@
 https://mckayson.com/main/index.php
 https://mui.com/material-ui/material-icons/?query=profile&selected=AccountCircle
 https://mui.com/material-ui/react-button/
+https://velog.io/@catca/React-Swipeable-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%8D%94-%EC%BB%A4%EC%8A%A4%ED%85%80
+https://github.com/oliviertassinari/react-swipeable-views
 
 ## makeStyles는 legacy 더이상 사용 안함
 
@@ -62,3 +64,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 ```
 
 - [참고](https://github.com/mui/material-ui/issues/31835)
+
+## Cannot find module 'react-swipeable-views' or its corresponding type declarations.ts(2307)
+
+`yarn add react-swipeable-views`, `yarn add react-swipeable-views-utils` 이후 `import`로 module을 못찾는 것을 발견, 이유는 `@types` 설치를 안했기 때문이다

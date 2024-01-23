@@ -13,10 +13,13 @@ import {
   MenuItem,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import SearchIcon from "@mui/icons-material/Search";
-import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+// import SearchIcon from "@mui/icons-material/Search";
+// import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
+// import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 // import AdbIcon from "@mui/icons-material/Adb";
+import IconSearch from "/assets/icon/icon-search.png";
+import IconMypage from "/assets/icon/icon-mypage.png";
+import IconCart from "/assets/icon/icon-cart.png";
 import Logo from "/assets/logo/logo.png";
 import theme from "../theme";
 import { width } from "@mui/system";
@@ -44,11 +47,16 @@ const Header = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{
+      // position: 'fixed',
+      backgroundColor: 'rgba(0, 0, 0, 0.3)',
+      // zIndex: 10,
+      // width: '100%',
+    }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* PC */}
-          {/* <img src={Logo} alt="Logo" sx={{ maxWidth: 40, marginRight: 2 }} /> */}
+          {/* <img src={Logo} alt="Logo" sx={{ maxWidth: 40, Right: 2 }} /> */}
           {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
           <Typography
             variant="h6"
@@ -80,13 +88,13 @@ const Header = () => {
             }}
           >
             <IconButton>
-              <SearchIcon />
+              <img src={IconSearch} alt="로고" />
             </IconButton>
             <IconButton>
-              <AccountCircleIcon />
+              <img src={IconMypage} alt="로고" />
             </IconButton>
             <IconButton>
-              <ShoppingBagIcon />
+              <img src={IconCart} alt="로고" />
             </IconButton>
             <IconButton
               size="large"

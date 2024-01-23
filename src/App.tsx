@@ -4,6 +4,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Link from "@mui/material/Link";
 import Header from "./components/Header";
+import Carousel from './components/Carousel';
 
 // function Copyright() {
 //   return (
@@ -19,9 +20,28 @@ import Header from "./components/Header";
 
 export default function App() {
   return (
-    <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
+    // <Container fixed>
+    <Container maxWidth="xl">
+      <Box sx={{ 
+        my: 4,
+        marginTop: 0, 
+        marginBottom: 0,
+        // paddingLeft: 0,
+        // paddingRight: 0,
+      }}>
         <Header />
+        <Carousel />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae in voluptatem aut? Similique aperiam commodi minima rerum repellendus odit, ipsam vitae incidunt modi quaerat eos officia id asperiores iure amet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae in voluptatem aut? Similique aperiam commodi minima rerum repellendus odit, ipsam vitae incidunt modi quaerat eos officia id asperiores iure amet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae in voluptatem aut? Similique aperiam commodi minima rerum repellendus odit, ipsam vitae incidunt modi quaerat eos officia id asperiores iure amet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae in voluptatem aut? Similique aperiam commodi minima rerum repellendus odit, ipsam vitae incidunt modi quaerat eos officia id asperiores iure amet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae in voluptatem aut? Similique aperiam commodi minima rerum repellendus odit, ipsam vitae incidunt modi quaerat eos officia id asperiores iure amet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae in voluptatem aut? Similique aperiam commodi minima rerum repellendus odit, ipsam vitae incidunt modi quaerat eos officia id asperiores iure amet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae in voluptatem aut? Similique aperiam commodi minima rerum repellendus odit, ipsam vitae incidunt modi quaerat eos officia id asperiores iure amet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae in voluptatem aut? Similique aperiam commodi minima rerum repellendus odit, ipsam vitae incidunt modi quaerat eos officia id asperiores iure amet.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae in voluptatem aut? Similique aperiam commodi minima rerum repellendus odit, ipsam vitae incidunt modi quaerat eos officia id asperiores iure amet.</p>
+
       </Box>
     </Container>
   );
